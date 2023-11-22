@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+}
+
+div {
+    width: 300px;
+    height: 200px;
+    margin: 210px auto;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 0 10px black;
+
+}
+
+div:hover {
+    cursor: pointer;
+}
+
+#parent {
+    text-align: center;
+    background-color: wheat;
+    color: white;
+}
+
+button {
+    margin: 10px;
+    font-size: 20px;
+    background-color: rgb(228, 12, 12);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+h1 {
+    color: rgb(225, 8, 8);
+    margin-top: 20px;
+}
+
+p {
+    color: black;
+}
+
+div>img {
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+    transition: all 0.5s linear 0s;
+    filter: brightness(70%);
+    position: absolute;
+    margin: 0px;
+    top: 0px;
+    left: 0px;
+}
+
+div>img:hover {
+    filter: brightness(100%);
+    transform: translateY(100%);
+}
+
+div>#child {
+    position: absolute;
+    margin: 0px;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    transition: all 1s linear 0s;
+}
+
+div:hover>#child {
+    /* margin: 0px; */
+    transform: translateY(-100%);
+    /* filter: grayscale(0%); */
+}
+
+div>#child-2 {
+    position: absolute;
+    margin: 0px;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    transition: all 1s linear 0s;
+}
+
+div:hover>#child-2 {
+    /* margin: 0px; */
+    transform: translateX(-100%);
+}
+
+div>#child-3 {
+    position: absolute;
+    margin: 0px;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    transition: all 1s linear 0s;
+}
+
+div:hover>#child-3 {
+    /* margin: 0px; */
+    transform: translateX(100%);
+}
+
+/* div>#child-4{
+            position: absolute;
+            margin: 0px;
+            top:0px;
+            left: 0px;
+            border-radius: 10px;
+            transition: all 1s linear 0s;
+        }
+        div:hover>#child-4{
+            /* margin: 0px; */
+/* transform: translateY(100%);
+        } */

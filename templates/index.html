@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div id="parent">
+        <h1>One Piece</h1>
+            <p>Stranded on a sinking boat, carefree Luffy begins his journey in search of a pirate king's lost treasure. But first, he'll need a crew, a ship and a map.</p>
+            <button>Learn more</button> 
+            <img src="{% static 'img/op2.jfif' %}" alt="image not fount">
+    
+
+        <div id="child-3">  
+            <h1>Nami</h1>
+            <p>Being the assigned navigator of the Straw Hat Pirates, Nami is responsible for evaluating the direction that the ship goes as they sail further into the sea.</p>  
+            <img src="{% static 'img/op3.jfif' %}" alt="image not fount">
+        </div>
+        <div id="child-2">
+            <h1>Roronoa Zoro</h1> 
+            <p>Roronoa Zoro, also known as "Pirate Hunter" Zoro, is a main combatant of the Straw Hat Pirates, one of their two swordsmen.</p> 
+            <img src="{% static 'img/op4.jfif' %}" alt="image not fount">
+        </div>
+        <div id="child">
+            <h1>Monke D.Luffy</h1>
+            <p>Monkey D. Luffy, also known as Straw Hat Luffy, is the main protagonist of the One Piece franchise.</p>
+            <img src="{% static 'img/two.jpg' %}" alt="image not fount">
+        </div>
+        <!-- <div id="child-4">  
+            <img src="../img/op2.jfif" alt="image not fount">
+        </div> -->
+        
+    </div>
+</body>
+</html>
